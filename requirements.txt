@@ -1,0 +1,18 @@
+# Telegram bot library for handling interactions with Telegram
+python-telegram-bot==20.3
+
+# CCXT library for interacting with cryptocurrency exchanges like Binance
+ccxt
+
+# Redis client for Python, used for storing and retrieving data from Redis
+redis
+
+pandas
+# Numpy for numerical calculations, used in strategies and analysis modules
+numpy==1.25.2
+
+# Optional: If you're using Flask or FastAPI for a web interface (not mandatory for the bot)
+# Flask==2.3.3
+
+# Optional: Logging configuration helper (not mandatory, can use Python's built-in logging)
+# loguru==0.7.0

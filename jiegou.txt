@@ -1,0 +1,36 @@
+quant_trading_bot/
+│
+├── bot/
+│   ├── __init__.py            # 包的初始化文件
+│   ├── telegram_bot.py        # Telegram机器人实现
+│   └── handlers.py            # 消息处理程序，处理不同指令
+│
+├── strategies/
+│   ├── __init__.py            # 包的初始化文件
+│   ├── strategy_base.py       # 策略基类，定义策略接口
+│   ├── moving_average.py       # 移动平均策略实现
+│   ├── macd_strategy.py        # MACD策略实现
+│   └── custom_strategy.py      # 用户自定义策略实现
+│
+├── data/
+│   ├── __init__.py            # 包的初始化文件
+│   ├── data_fetcher.py        # 数据获取模块，负责从Redis和币安获取数据
+│   └── redis_client.py         # Redis客户端封装
+│
+├── analysis/
+│   ├── __init__.py            # 包的初始化文件
+│   ├── trend_analysis.py       # 趋势分析模块
+│   ├── risk_analysis.py        # 风险分析模块
+│   ├── buy_sell_analysis.py    # 买入卖出信号分析模块
+│   └── target_analysis.py      # 目标分析模块
+│
+├── config/
+│   ├── __init__.py            # 包的初始化文件
+│   └── settings.py            # 配置文件，存储API密钥、Telegram配置等
+│
+├── logs/
+│   └── bot.log                # 日志文件，记录运行信息和错误
+│
+├── requirements.txt            # 项目依赖列表
+├── README.md                   # 项目说明文档
+└── main.py                     # 项目入口，启动机器人和各个模块

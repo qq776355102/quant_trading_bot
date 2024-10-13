@@ -1,0 +1,17 @@
+# 配置文件，存储API密钥、Telegram配置等
+
+# Telegram Bot Token
+TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+
+# Binance API配置
+BINANCE_API_KEY = 'YOUR_BINANCE_API_KEY'
+BINANCE_API_SECRET = 'YOUR_BINANCE_API_SECRET'
+
+# Redis配置
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0
+
+# 其他设置
+DEFAULT_SYMBOL = 'BTC/USDT'
+DEFAULT_STRATEGY = 'moving_average'
